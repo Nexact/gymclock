@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.conteneur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#horloge {
+  font-size: 5vw;
+  color: #0bfc03;
+  text-align: center;
+  max-width: 100%;
+  word-wrap: break-word;
+  font-family: "Major Mono Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@media (max-width: 600px) {
+  #horloge {
+      font-size: 8vw;
+  }
+}
